@@ -58,12 +58,12 @@ const personalMovieDB = {
     privat: false
 };
 
-let a = prompt('Один из просмотренных фильмов', 'Терминатор');
-let b = +prompt('На сколько оцените его?', '7');
-let c = prompt('Один из просмотренных фильмов', 'Властелин колец');
-let d = +prompt('На сколько оцените его?', '9.6');
+let a = prompt('Один из просмотренных фильмов', 'Терминатор'),
+    b = +prompt('На сколько оцените его?', '7'),
+    c = prompt('Один из просмотренных фильмов', 'Властелин колец'),
+    d = +prompt('На сколько оцените его?', '9.6');
 
-personalMovieDB.movies[a]=b;
-personalMovieDB.movies[c]=d;
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
